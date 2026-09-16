@@ -1,0 +1,3 @@
+name=Camera A
+width=1920
+fps=60

@@ -1,0 +1,63 @@
+default_name|PASS|expect 'Camera Test'
+default_status|PASS|expect DISCONNECTED
+default_width|PASS|expect 1920
+default_height|PASS|expect 1080
+default_fps|PASS|expect 30
+default_pan|PASS|expect 0.0
+default_tilt|PASS|expect 0.0
+default_zoom|PASS|expect 1.0
+default_enabled|PASS|expect FALSE
+default_recording|PASS|expect FALSE
+default_id_null|PASS|chua set -> phai NULL
+set_get_name|PASS|
+set_get_width|PASS|
+set_get_height|PASS|
+set_get_fps|PASS|
+set_get_status|PASS|
+set_get_pan|PASS|
+set_get_tilt|PASS|
+set_get_zoom|PASS|
+set_get_enabled|PASS|
+set_get_recording|PASS|
+set_get_id|PASS|
+set_get_rtsp_url|PASS|
+set_get_codec|PASS|
+aspect_ratio|PASS|1920x1080 -> ~1.777
+clamp_width_far_over|PASS|vuot xa max -> ve 4000
+clamp_height_far_over|PASS|vuot xa max -> ve 2200
+clamp_fps_far_under|PASS|duoi min -> ve 1
+clamp_fps_far_over|PASS|vuot xa max -> ve 120
+clamp_pan_far_over|PASS|
+clamp_pan_far_under|PASS|
+clamp_tilt_far_over|PASS|
+clamp_tilt_far_under|PASS|
+clamp_zoom_far_over|PASS|
+clamp_zoom_far_under|PASS|
+clamp_fps_exact_max|PASS|dung bang max -> giu nguyen
+clamp_fps_exact_min|PASS|dung bang min -> giu nguyen
+prop_api_name|PASS|
+prop_api_width|PASS|
+prop_api_height|PASS|
+prop_api_fps|PASS|
+prop_api_status|PASS|
+prop_api_pan|PASS|
+prop_api_tilt|PASS|
+prop_api_zoom|PASS|
+prop_api_enabled|PASS|
+prop_api_recording|PASS|
+prop_api_clamp_applies|PASS|clamp phai ap dung du di duong nao
+notify_fires_on_change|PASS|gia tri doi -> phai bao 1 lan
+notify_correct_prop_name|PASS|
+notify_silent_on_same_value|PASS|khong doi -> khong duoc bao
+notify_fires_via_property_api|PASS|
+independent_diff_ptr|PASS|hai dia chi bo nho khac nhau
+independent_name_a_live|PASS|
+independent_name_b_live|PASS|
+file_cam_a_name|PASS|
+file_cam_b_name|PASS|
+file_cam_a_width|PASS|
+file_cam_b_width|PASS|
+files_not_identical|PASS|2 file phai khac nhau -> khong bi lan du lieu giua 2 object
+lifecycle_create_ok|PASS|
+lifecycle_refcount_initial|PASS|refcount = 1 sau khi new
+lifecycle_finalized_after_unref|PASS|object phai thuc su bi huy, khong chi giam refcount

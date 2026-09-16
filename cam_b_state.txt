@@ -1,0 +1,3 @@
+name=Camera B
+width=640
+fps=15
